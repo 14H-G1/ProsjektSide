@@ -1,0 +1,14 @@
+body {
+	max-width: 700px;
+	margin: 50px auto;
+}
+
+#header {
+	background-color: blue;
+	text-align: center;
+}
+nav a {
+	display: block;
+}
+
+nav 
