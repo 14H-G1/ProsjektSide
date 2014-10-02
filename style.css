@@ -1,14 +1,49 @@
 body {
-	max-width: 700px;
-	margin: 50px auto;
+	font-family: helvetica, sans-serif;
+	max-width: 700px; /* Samler alle taggene */
+	margin: 50px auto; /* Sentrerer hele siden */
+	background-color: #E9EAED; /* En gråfarge*/
 }
 
 #header {
-	background-color: blue;
 	text-align: center;
-}
-nav a {
-	display: block;
+	margin-bottom: 35px;
 }
 
-nav 
+#om-oss, #om-meg {
+	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
+	background-color: white;
+}
+
+#om-oss h2 {
+	margin-top: 0;
+}
+
+img {
+	max-height: 180px;
+	margin-bottom: 15px;
+}
+
+nav {
+	margin-top: 15px; /* Lager et mellomrom mellom #om-oss og 'nav' */
+	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
+	background-color: white;
+}
+
+/* Alle disse margin/padding: 0 gjør at avstanden mellom innholdet i
+boksene og selve kanten til boksen er like lang */
+nav h2 {
+	margin-top: 0;
+}
+
+nav ul {
+	margin-bottom: 0;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav li {
+	display: inline-block; /* Gjør at listen ligger horisontalt */
+}
