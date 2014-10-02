@@ -13,6 +13,7 @@ body {
 #om-oss, #om-meg {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
+	border-radius: 2.5px;
 }
 
 #om-oss h2 {
@@ -28,6 +29,7 @@ nav {
 	margin-top: 15px; /* Lager et mellomrom mellom #om-oss og 'nav' */
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
+	border-radius: 2.5px;
 }
 
 /* Alle disse margin/padding: 0 gjør at avstanden mellom innholdet i
