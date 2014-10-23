@@ -10,7 +10,7 @@ body {
 	margin-bottom: 35px;
 }
 
-#om-oss, #om-meg {
+#om-oss, #om-meg #bilde {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
 	border-radius: 2.5px;
@@ -30,6 +30,15 @@ nav {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
 	border-radius: 2.5px;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: red;
+	
 }
 
 /* Alle disse margin/padding: 0 gjør at avstanden mellom innholdet i
