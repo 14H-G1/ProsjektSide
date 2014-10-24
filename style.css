@@ -3,6 +3,20 @@ body {
 	max-width: 700px; /* Samler alle taggene */
 	margin: 50px auto; /* Sentrerer hele siden */
 	background-color: #E9EAED; /* En gråfarge*/
+	line-height: 25px;
+}
+
+p, ul {
+	color: #3a3a3a;
+}
+
+.link {
+	color: #60BC7B;
+}
+
+.link:hover {
+	color: #81ec9c;
+
 }
 
 #header {
@@ -10,19 +24,19 @@ body {
 	margin-bottom: 35px;
 }
 
-#om-oss, #om-meg #bilde {
+#om-oss, #om-meg, #om-prosjektet {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
 	border-radius: 2.5px;
 }
 
-#om-oss h2 {
+#om-oss h2, #om-prosjektet h2 {
 	margin-top: 0;
 }
 
 img {
 	max-height: 180px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 nav {
@@ -34,15 +48,14 @@ nav {
 nav a {
 	text-decoration: none;
 	color: black;
+	background-color: lightgrey;
+	padding: 8px 10px;
 }
 
 nav a:hover {
-	color: red;
-	
+	background-color: #e8e8e8;
 }
 
-/* Alle disse margin/padding: 0 gjør at avstanden mellom innholdet i
-boksene og selve kanten til boksen er like lang */
 nav h2 {
 	margin-top: 0;
 }
