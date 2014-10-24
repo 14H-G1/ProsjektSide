@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Stalemate); /* h1 */
+@import url(http://fonts.googleapis.com/css?family=Fjord+One); /* p, ul, td */
+@import url(http://fonts.googleapis.com/css?family=Oswald); /* h2-h4 */
+
 body {
 	font-family: helvetica, sans-serif;
 	max-width: 700px; /* Samler alle taggene */
@@ -6,41 +10,67 @@ body {
 	line-height: 25px;
 }
 
+h2, h3, h4 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	color: #262626;
+}
+
 p, ul, td {
+	font-family: 'Fjord One', serif;
 	color: #3a3a3a;
 }
 
-.link {
-	color: #60BC7B;
-}
-
-.link:hover {
-	color: #81ec9c;
-
-}
+.link { color: #60BC7B; }
+.link:hover { color: #81ec9c; }
 
 #header {
+	font-family: 'Stalemate', cursive;
+	font-size: 50px;
 	text-align: center;
-	margin-bottom: 35px;
+	line-height: 100px;
+	padding: 15px 0;
 }
 
-#om-oss, #om-meg, #om-prosjektet, #fav-boker {
+#header h1 {
+	margin: 10px;
+	display: inline-block;
+	vertical-align: super;
+}
+
+.profil-img {
+	display: inline-block;
+	border-radius: 100px;
+	max-width: 100px;
+	margin-left: 15px;
+}
+
+#logo  {
+	margin-left: 10px;
+}
+
+.logo-img {
+	max-height: 100px;
+	margin-left: 15px;
+}
+
+.box {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
+	margin: 10px;
 	background-color: white;
 	border-radius: 2.5px;
 }
 
-#om-oss h2, #om-prosjektet h2, #fav-boker h2 {
+.box h2 {
 	margin-top: 0;
 }
 
-#fav-boker {
-	margin-top: 15px;
+.box p:last-child {
+	margin-bottom: 0;
 }
 
-img {
-	max-height: 180px;
-	margin-bottom: 10px;
+#fav-boker {
+	margin-top: 10px;
 }
 
 table {
@@ -61,6 +91,7 @@ nav {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
 	border-radius: 2.5px;
+	margin: 10px;
 }
 nav a {
 	text-decoration: none;
