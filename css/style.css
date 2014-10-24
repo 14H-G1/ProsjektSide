@@ -6,7 +6,7 @@ body {
 	line-height: 25px;
 }
 
-p, ul {
+p, ul, td {
 	color: #3a3a3a;
 }
 
@@ -24,19 +24,36 @@ p, ul {
 	margin-bottom: 35px;
 }
 
-#om-oss, #om-meg, #om-prosjektet {
+#om-oss, #om-meg, #om-prosjektet, #fav-boker {
 	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
 	border-radius: 2.5px;
 }
 
-#om-oss h2, #om-prosjektet h2 {
+#om-oss h2, #om-prosjektet h2, #fav-boker h2 {
 	margin-top: 0;
+}
+
+#fav-boker {
+	margin-top: 15px;
 }
 
 img {
 	max-height: 180px;
 	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+	padding: 5px;
+}
+
+table tr:nth-child(even) {
+	background-color: #e8e8e8;
+}
+
+table th {
+	text-align: left;
 }
 
 nav {

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fav-books>
+    <book>
+        <title>A Short History of Nearly Everything</title>
+        <author>Bill Bryson</author>
+    </book>
+    <book>
+        <title>War and Peace</title>
+        <author>Leo Tolstoy</author>
+    </book>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+    </book>
+    <book>
+        <title>The Hound of the Baskervilles</title>
+        <author>Sir Arthur Conan Doyle</author>
+    </book>
+</fav-books>
