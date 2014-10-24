@@ -55,8 +55,8 @@ p, ul, td {
 }
 
 .box {
-	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
-	margin: 10px;
+	padding: 20px 15px; /* Lager en avstand mellom teksten og kanten til boksen */
+	margin: 10px 10px 25px 10px;
 	background-color: white;
 	border-radius: 2.5px;
 }
