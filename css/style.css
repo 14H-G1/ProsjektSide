@@ -4,10 +4,14 @@
 
 body {
 	font-family: helvetica, sans-serif;
-	max-width: 700px; /* Samler alle taggene */
-	margin: 50px auto; /* Sentrerer hele siden */
 	background-color: #E9EAED; /* En gråfarge*/
 	line-height: 25px;
+	margin: 0;
+}
+
+.container {
+	max-width: 700px; /* Samler alle taggene */
+	margin: 50px auto 120px auto; /* Sentrerer hele siden */
 }
 
 h2, h3, h4 {
@@ -23,6 +27,34 @@ p, ul, td {
 
 .link { color: #60BC7B; }
 .link:hover { color: #81ec9c; }
+
+.knapper {
+	padding-left: 0;
+}
+
+.knapper a, nav a {
+	text-decoration: none;
+	color: black !important;
+	background-color: lightgrey;
+	padding: 8px 10px;
+}
+
+.knapper a:hover, nav a:hover{
+	background-color: #e8e8e8;
+}
+
+.knapper h2 {
+	margin-top: 0;
+}
+
+.knapper ul, nav ul {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.knapper li, nav li {
+	display: inline-block; /* Gjør at listen ligger horisontalt */
+}
 
 #header {
 	font-family: 'Stalemate', cursive;
@@ -54,13 +86,6 @@ p, ul, td {
 	margin-left: 15px;
 }
 
-.box {
-	padding: 20px 15px; /* Lager en avstand mellom teksten og kanten til boksen */
-	margin: 10px 10px 25px 10px;
-	background-color: white;
-	border-radius: 2.5px;
-}
-
 .box h2 {
 	margin-top: 0;
 }
@@ -86,36 +111,23 @@ table th {
 	text-align: left;
 }
 
-nav {
-	margin-top: 15px; /* Lager et mellomrom mellom #om-oss og 'nav' */
-	padding: 15px 10px; /* Lager en avstand mellom teksten og kanten til boksen */
+.box, nav{
+	margin-top: 15px; /* Lager et mellomrom mellom #om-oss og '.box' */
+	padding: 15px 15px; /* Lager en avstand mellom teksten og kanten til boksen */
 	background-color: white;
 	border-radius: 2.5px;
 	margin: 10px;
 }
-nav a {
-	text-decoration: none;
-	color: black;
-	background-color: lightgrey;
-	padding: 8px 10px;
-}
 
-nav a:hover {
-	background-color: #e8e8e8;
-}
-
-nav h2 {
-	margin-top: 0;
+nav {
+	background-color: white;
+	border-top: solid 1px lightgrey;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+	bottom: 0;
 }
 
 nav ul {
-	margin-bottom: 0;
-}
-
-nav ul {
-	padding: 0;
-}
-
-nav li {
-	display: inline-block; /* Gjør at listen ligger horisontalt */
+	margin-top: 5px;
 }

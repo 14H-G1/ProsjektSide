@@ -8,36 +8,44 @@
 
 <body>
 
-	<div id="header">
-		<h1>Gruppe 1</h1>
-		<img class="logo-img" src="img/pebb-logo-only.png">
+	<div class="container">
+		<div id="header">
+			<h1>Gruppe 1</h1>
+			<img class="logo-img" src="img/pebb-logo-only.png" alt="Logo">
+		</div>
+
+		<div id="om-oss" class="box">
+			<h2>Om oss</h2>
+			<p>
+				Vi er en gruppe på ING102 som skal gjøre kjøp og salg av brukte skolebøker enkelt for studenter.
+				Av den grunn har vi startet arbeidet med PEBB.no, PEnsumBøker Billig, hvor du kan følge med på utviklingen
+				og om ikke så lenge faktisk selge/kjøpe pensumbøker.
+			</p>
+		</div>
+
+		<div class="box">
+			<h2>Les mer om medlemmene</h2>
+			<ul class="knapper">
+				<li><a href="medlem/marcus.html">Marcus</a></li>
+				<li><a href="medlem/jone.html">Jone</a></li>
+				<li><a href="medlem/orjan.html">Ørjan</a></li>
+				<li><a href="medlem/nataniel.html">Nataniel</a></li>
+			</ul>
+		</div>
+
+		<div id="fav-boker" class="box">
+			<h2>Våre favorittbøker</h2>
+			<div id="bok-liste"></div>
+		</div>
 	</div>
 
-	<div id="om-oss" class="box">
-		<h2>Om oss</h2>
-		<p>
-			Vi er en gruppe på ING102 som skal gjøre kjøp og salg av brukte skolebøker enkelt for studenter.
-			Av den grunn har vi startet arbeidet med PEBB.no, PEnsumBøker Billig, hvor du kan følge med på utviklingen
-			og om ikke så lenge faktisk selge/kjøpe pensumbøker.
-		</p>
-		<p>Les mer om prosjektet på <a class="link" href="prosjektbeskrivelse.html">prosjektsiden</a> og besøk nettsiden på <a class="link" href="http://pebb.no">PEBB.no</a>.</p>
-	</div>
-
-	<nav class="box">
-		<h2>Les mer om medlemmene</h2>
+	<nav>
 		<ul>
-			<li><a href="medlem/marcus.html">Marcus</a></li>
-			<li><a href="medlem/jone.html">Jone</a></li>
-			<li><a href="medlem/orjan.html">Ørjan</a></li>
-			<li><a href="medlem/nataniel.html">Nataniel</a></li>
+			<li><a class="link" href="statusrapport.html">Statusrapport</a></li>
+			<li><a class="link" href="prosjektbeskrivelse.html">Prosjektsiden</a></li>
+			<li><a class="link" href="http://pebb.no">PEBB.no</a></li>
 		</ul>
 	</nav>
-
-	<div id="fav-boker" class="box">
-		<h2>Våre favorittbøker</h2>
-		<div id="bok-liste"></div>
-	</div>
-
 
 	<script src="js/scripts.js"></script>
 </body>
